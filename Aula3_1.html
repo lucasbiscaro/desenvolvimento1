@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Minha primeira página HTML</title>
+    <link href = "Aula3_estilo.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 style="color:red;">H1</h1>
+    <h2>H2</h2>
+    <h2>o ney mandou a gabi ir tomar banho e o hexa já está garantido</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+    <p>Este é meu parágrafo bla bla bla bla bla bla bla bla<i> <br />bla bla bla bla bla bla bla v bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</i> bla </p>
+    <ol>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ol>
+    <img src = "https://www.gazetaesportiva.com/wp-content/uploads/imagem/2018/01/12/Neymar-1024x576.jpg" width=50% />
+    <video src = "http://techslides.com/demos/sample-videos/small.mp4" width=50% controls> </video>
+    <a href = "http://www.labgeolivre.ufpr.br/" > Link para imagem</a>
+    <a href = "Aula3_1.html" > segunda pagina</a>
+
+    <script>
+      console.log('O ney mandou um Oii pra gabi');
+      document.write('O ney mandou um Oii pra gabi<br>');
+      var numero = 10;
+      if( numero > 10 ){
+          document.write("Número da camisa do NEY<br>")
+      }else{
+          document.write("O HEXA já é realidade<br>")
+      }
+
+      function calcularMedia(n1,n2){
+        return ( n1 + n2 ) / 2;
+      }
+
+      document.write(calcularMedia(numero,3254538435843545));
+
+      for ( i = 0; i <= 10; i++){
+        document.write(`<br>Passou pelo valor: ${i}`)
+      }
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#meumapa {
+  height: 95%;
+  width: 95%;
+}
+
+h2 {
+  color: #ff0000;
+  text-align: center;
+  border-style: dashed;
+}
+
+img{
+  position: absolute;
+  top:15%;
+  left: 2%;
+  z-index: 500;
+}
